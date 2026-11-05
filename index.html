@@ -19,7 +19,7 @@ header{height:82px;background:#fff;position:sticky;top:0;z-index:20;border-botto
 
 /* Permanent opening poster and Bengali manifesto: accessible again via Home / back-to-top. */
 .opening{background:linear-gradient(125deg,#edf2fb 0%,#fff 60%,#fff6d4 100%);padding:28px 0 46px;scroll-margin-top:86px}
-.opening-head{text-align:center;margin:0 auto 24px}.opening-head h2{font-size:clamp(1.28rem,2.8vw,2.3rem);margin:8px 0 4px;color:var(--blue)}.opening-head p{margin:0;color:#5b6780;font-size:.86rem;font-weight:700}
+.opening-head{text-align:center;margin:0 auto 24px}.opening-head h2{margin:10px 0 10px;color:var(--blue);line-height:1.22;letter-spacing:-.025em}.opening-position{display:block;font-size:clamp(1.45rem,2.9vw,2.25rem);font-weight:800}.opening-ballot{display:block;white-space:nowrap;font-size:clamp(1.85rem,4.5vw,3rem);font-weight:800;margin-top:6px;line-height:1.12}.opening-ballot strong{font-size:1.3em;font-weight:900;color:var(--royal);font-variant-numeric:tabular-nums}.opening-head p{margin:0;color:#5b6780;font-size:.86rem;font-weight:700}
 .opening-layout{display:grid;grid-template-columns:minmax(0,.91fr) minmax(0,1.09fr);gap:28px;align-items:start}
 .opening-poster{position:sticky;top:101px;min-width:0;display:flex;flex-direction:column;align-items:center;gap:14px}
 .opening-poster img{width:auto;max-width:100%;max-height:calc(100dvh - 195px);object-fit:contain;border-radius:14px;box-shadow:0 18px 50px #1224522a}
@@ -31,7 +31,7 @@ header{height:82px;background:#fff;position:sticky;top:0;z-index:20;border-botto
 .back-to-top{position:fixed;right:20px;bottom:20px;z-index:90;background:var(--blue);color:#fff;border:2px solid #fff;border-radius:12px;padding:11px 16px;box-shadow:0 8px 28px #1222484a;font-size:.85rem;font-weight:800;opacity:0;pointer-events:none;transform:translateY(10px);transition:.2s}
 .back-to-top.visible{opacity:1;pointer-events:auto;transform:translateY(0)}
 @media(max-width:800px){.opening-layout{grid-template-columns:1fr}.opening-poster{position:static}.opening-poster img{max-height:none;width:min(100%,490px)}.manifesto{padding:22px}.opening{padding-top:24px}.opening-head{margin-bottom:20px}}
-@media(max-width:480px){.opening-head h2{font-size:1.36rem}.manifesto{padding:18px;font-size:.96rem}.poster-actions .btn{font-size:.76rem}}
+@media(max-width:480px){.opening-position{font-size:clamp(1.35rem,5.6vw,1.6rem)}.opening-ballot{font-size:clamp(1.45rem,6.25vw,1.9rem);margin-top:10px}.opening-ballot strong{font-size:1.65em}.opening-head{margin-bottom:19px}.opening-head p{font-size:.78rem;line-height:1.5}.manifesto{padding:18px;font-size:.96rem}.poster-actions .btn{font-size:.76rem}}
 </style>
 </head>
 <body>
@@ -39,7 +39,7 @@ header{height:82px;background:#fff;position:sticky;top:0;z-index:20;border-botto
 <main>
 <section class="opening" id="home" aria-labelledby="openingTitle">
   <div class="wrap">
-    <div class="opening-head"><span class="eyebrow">IEB Election 2026 · Term 2027–2028</span><h2 id="openingTitle">Central Council Member · Ballot No. 130</h2><p>ENGR. MD. AULAD HOSSAIN (BACHCHU) · F/14326</p></div>
+    <div class="opening-head"><span class="eyebrow">IEB Election 2026 · Term 2027–2028</span><h2 id="openingTitle"><span class="opening-position">Central Council Member</span><span class="opening-ballot">Ballot No. <strong>130</strong></span></h2><p>ENGR. MD. AULAD HOSSAIN (BACHCHU) · F/14326</p></div>
     <div class="opening-layout">
       <div class="opening-poster"><img src="assets/brochure.webp" alt="Campaign poster: Engr. Md. Aulad Hossain (Bachchu), Central Council Member, Ballot No. 130" fetchpriority="high"><div class="poster-actions"><a class="btn gold" href="#manifesto">নির্বাচনী অঙ্গীকার পড়ুন ↓</a><a class="btn outline" href="#profile">Visit Website ↓</a></div></div>
       <article class="manifesto" id="manifesto" lang="bn" aria-label="ইঞ্জিনিয়ার মোঃ আওলাদ হোসেন বাচ্চুর নির্বাচনী বার্তা">
